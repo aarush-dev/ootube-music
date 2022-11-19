@@ -1,0 +1,33 @@
+
+ytmusic-nav-bar {
+	-webkit-user-select: none;
+	-webkit-app-region: drag;
+}
+
+iron-icon,
+ytmusic-pivot-bar-item-renderer,
+.tab-title,
+a {
+	-webkit-app-region: no-drag;
+}
+
+
+ytmusic-app-layout {
+	--ytmusic-nav-bar-height: 90px;
+}
+
+ytmusic-search-box.ytmusic-nav-bar {
+	margin-top: 15px;
+}
+ytmusic-mealbar-promo-renderer {
+	display: none !important;
+}
+
+img {
+	-webkit-user-select: none;
+	user-select: none;
+}
+
+ytmusic-cast-button {
+	display: none !important;
+}

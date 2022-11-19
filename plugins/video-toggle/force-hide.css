@@ -1,0 +1,9 @@
+#main-panel {
+	display: none !important;
+}
+
+.side-panel.ytmusic-player-page {
+	max-width: 100% !important;
+	width: 100% !important;
+	margin: 0 !important;
+}
